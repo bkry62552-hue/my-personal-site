@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="موقعي الشخصي — كل طرق التواصل في مكان واحد">
+  <title>موقعي الشخصي | Ahmed Bkry</title>
+  <style>
+    :root{--bg:#06101d;--panel:rgba(8,20,36,.82);--line:rgba(142,177,220,.22);--text:#f4f7ff;--muted:#b5c2d5;--blue:#2785ff}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;min-height:100vh;color:var(--text);font-family:Tahoma,Arial,sans-serif;background:
+      radial-gradient(ellipse at 15% 8%,rgba(28,106,190,.25),transparent 38%),
+      radial-gradient(ellipse at 85% 28%,rgba(31,67,130,.23),transparent 34%),var(--bg)}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(760px,92%);margin:auto;padding:34px 0 24px}
+    .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+    .pill{border:1px solid var(--line);background:rgba(255,255,255,.04);padding:10px 14px;border-radius:14px;color:var(--muted);font-size:13px}
+    .hero{text-align:center;padding:16px 8px 26px}
+    .avatar{width:132px;height:132px;border-radius:50%;margin:0 auto 18px;display:grid;place-items:center;
+      background:linear-gradient(145deg,#17385d,#101a2b);border:3px solid var(--blue);box-shadow:0 0 32px #2785ff55;font-size:50px}
+    h1{font-size:clamp(30px,6vw,44px);margin:0 0 10px;letter-spacing:.2px}
+    h1 span{color:#68a9ff}
+    .welcome{font-size:19px;margin:0 0 12px}
+    .desc{color:var(--muted);line-height:1.9;max-width:500px;margin:0 auto}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:10px 0 22px}
+    .stat{padding:15px 8px;text-align:center;border:1px solid var(--line);background:var(--panel);border-radius:18px}
+    .stat strong{display:block;font-size:15px;margin-bottom:7px}.stat small{color:var(--muted)}
+    .links{display:grid;gap:11px}
+    .link{display:flex;align-items:center;gap:14px;padding:13px 15px;border-radius:19px;border:1px solid #ffffff20;
+      box-shadow:0 8px 22px #0002;transition:transform .18s,filter .18s}
+    .link:hover{transform:translateY(-2px);filter:brightness(1.1)}
+    .ico{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:#ffffff24;font-size:25px;flex-shrink:0}
+    .link .label{font-size:17px;font-weight:bold}.link .sub{font-size:13px;color:#ffffffc9;margin-top:5px}
+    .arrow{margin-right:auto;font-size:23px}
+    .whatsapp{background:linear-gradient(100deg,#087c4a,#08a65f)}
+    .facebook{background:linear-gradient(100deg,#0753bd,#176ff0)}
+    .instagram{background:linear-gradient(100deg,#8239c9,#e52f75,#ff8c43)}
+    .tiktok{background:linear-gradient(100deg,#182333,#354052)}
+    .telegram{background:linear-gradient(100deg,#087ab9,#168fe0)}
+    .phone,.email,.youtube{background:linear-gradient(100deg,#17263a,#29374d)}
+    .youtube{background:linear-gradient(100deg,#9e1010,#e21b25)}
+    footer{text-align:center;color:var(--muted);font-size:13px;padding:24px 8px 4px;line-height:2}
+    .note{border:1px dashed #7aaeff66;background:#10213a88;border-radius:16px;padding:14px;color:#c8d8ef;font-size:13px;line-height:1.8;margin-top:20px}
+    @media(max-width:480px){.wrap{padding-top:20px}.stats{gap:7px}.stat{padding:12px 4px}.stat strong{font-size:13px}.stat small{font-size:11px}.link{padding:11px}.ico{width:43px;height:43px}.link .label{font-size:15px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="top">
+      <span class="pill">✦ الصفحة الشخصية</span>
+      <span class="pill">متاح للتواصل</span>
+    </div>
+
+    <section class="hero">
+      <div class="avatar" aria-label="مكان صورتك الشخصية">👤</div>
+      <h1>Ahmed <span>Bkry</span></h1>
+      <p class="welcome">👋 أهلًا بيك في موقعي الشخصي</p>
+      <p class="desc">كل طرق التواصل معايا في مكان واحد. اختار الطريقة المناسبة واتواصل معايا بسهولة.</p>
+    </section>
+
+    <section class="stats" aria-label="معلومات سريعة">
+      <div class="stat"><strong>📍 مصر</strong><small>المحمودية - البحيرة</small></div>
+      <div class="stat"><strong>🤝 تواصل</strong><small>يسعدني كلامك</small></div>
+      <div class="stat"><strong>💙 أهلًا بيك</strong><small>نورت موقعي</small></div>
+    </section>
+
+    <!-- غيّر الروابط الموجودة بين علامات الاقتباس إلى روابطك الحقيقية -->
+    <section class="links" aria-label="طرق التواصل">
+      <a class="link whatsapp" href="https://wa.me/201000000000" target="_blank" rel="noopener">
+        <span class="ico">☏</span><span><span class="label">WhatsApp</span><div class="sub">تواصل معايا على واتساب</div></span><span class="arrow">‹</span>
+      </a>
+      <a class="link facebook" href="https://facebook.com/" target="_blank" rel="noopener">
+        <span class="ico">f</span><span><span class="label">Facebook</span><div class="sub">تابعني على فيسبوك</div></span><span class="arrow">‹</span>
+      </a>
+      <a class="link instagram" href="https://instagram.com/" target="_blank" rel="noopener">
+        <span class="ico">◎</span><span><span class="label">Instagram</span><div class="sub">تابعني على إنستجرام</div></span><span class="arrow">‹</span>
+      </a>
+      <a class="link tiktok" href="https://tiktok.com/" target="_blank" rel="noopener">
+        <span class="ico">♪</span><span><span class="label">TikTok</span><div class="sub">تابعني على تيك توك</div></span><span class="arrow">‹</span>
+      </a>
+      <a class="link telegram" href="https://t.me/" target="_blank" rel="noopener">
+        <span class="ico">➤</span><span><span class="label">Telegram</span><div class="sub">تواصل معايا على تليجرام</div></span><span class="arrow">‹</span>
+      </a>
+      <a class="link phone" href="tel:+201000000000">
+        <span class="ico">☎</span><span><span class="label">اتصل بيا</span><div class="sub">اضغط للاتصال مباشرة</div></span><span class="arrow">‹</span>
+      </a>
+      <a class="link email" href="mailto:yourmail@example.com">
+        <span class="ico">✉</span><span><span class="label">Email</span><div class="sub">راسلني على الإيميل</div></span><span class="arrow">‹</span>
+      </a>
+      <a class="link youtube" href="https://youtube.com/" target="_blank" rel="noopener">
+        <span class="ico">▶</span><span><span class="label">YouTube</span><div class="sub">تابع قناتي على يوتيوب</div></span><span class="arrow">‹</span>
+      </a>
+    </section>
+
+    <div class="note">⚙️ دي نسخة أولية جاهزة للتعديل. الروابط والأرقام الحالية أمثلة فقط؛ لازم تستبدلها ببياناتك قبل نشر الموقع.</div>
+    <footer>❤️ شكرًا لزيارتك موقعي<br>© 2026 Ahmed Bkry — جميع الحقوق محفوظة</footer>
+  </main>
+</body>
+</html>
